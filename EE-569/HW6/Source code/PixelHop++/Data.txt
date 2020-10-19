@@ -1,0 +1,6 @@
+source activate tensorflow2_p36
+pip install -U scikit-image
+
+
+t2.xlarge Fit time:
+m5ad.8xlarge Transform time:
