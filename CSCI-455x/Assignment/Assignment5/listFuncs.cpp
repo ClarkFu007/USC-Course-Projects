@@ -88,7 +88,7 @@ bool listRemove(ListType &list, const std::string &theKey){
    // The list has only one element:
    if (p->next == NULL) {
       if (p->key == theKey){
-         list->next = NULL;
+         list = NULL;
          delete p;
          return true;
       }
