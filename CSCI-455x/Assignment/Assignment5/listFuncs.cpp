@@ -112,7 +112,7 @@ bool listRemove(ListType &list, const std::string &theKey){
          return true;
       }
    }
-   Node *temp = p->next; // To check the last one。
+   Node *temp = p->next; // To check the last one.
    if (temp->key == theKey){
       p->next = NULL;
       delete temp;
